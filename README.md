@@ -3,7 +3,7 @@
 ## Project Overview
 
 This is a **complete, production-ready Selenium WebDriver automation framework** for testing web applications. It uses the [DemoQA](https://demoqa.com) test automation playground as the target site and demonstrates:
-
+-
  Page Object Model (POM) design pattern
 - 
  Explicit waits and proper synchronization
