@@ -30,7 +30,7 @@
 - **Purpose:** Verify site homepage loads correctly
 - **Input:** BASE_URL
 - **Expected:** Title matches, URL correct
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 2. Text Box Form
 - **Endpoint:** `POST /text-box`
@@ -39,49 +39,49 @@
   - Valid: Name="Test User", Email="redacted@example.com", Address="REDACTED_ADDRESS"
   - Invalid: Email="not-an-email"
 - **Expected:** Form submits, output shows or validation error displayed
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 3. Links Page
 - **Endpoint:** `GET /links`
 - **Purpose:** Test link element attributes and click behavior
 - **Input:** Click "Simple Link" (simpleLink element)
 - **Expected:** href attribute points to valid URL
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 4. Buttons Page
 - **Endpoint:** `GET /buttons`
 - **Purpose:** Verify buttons page loads
 - **Input:** Navigate to /buttons
 - **Expected:** Page title/URL contains "button"
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 5. Upload/Download Page
 - **Endpoint:** `GET /upload-download`
 - **Purpose:** Test page with file operations
 - **Input:** Navigate to endpoint
 - **Expected:** Page loads without errors
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 6. Alerts Page
 - **Endpoint:** `GET /alerts`
 - **Purpose:** Verify alerts page structure
 - **Input:** Navigate to /alerts
 - **Expected:** Page loads with valid title
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 7. Frames Page
 - **Endpoint:** `GET /frames`
 - **Purpose:** Test page with iframe elements
 - **Input:** Navigate to /frames
 - **Expected:** Page loads successfully
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ### 8. Non-Existent Page (Error Handling)
 - **Endpoint:** `GET /non-existent-page`
 - **Purpose:** Test exception handling for missing pages
 - **Input:** Navigate to undefined page, attempt element lookup
 - **Expected:** Exception raised or handled gracefully
-- **Result:** ✓ PASS
+- **Result:**  PASS
 
 ---
 
@@ -100,12 +100,12 @@ TEST_USER = {
 
 ## Coverage Summary
 
-- **UI Elements:** ✓ Page titles, URLs, form fields, links
-- **Form Submission:** ✓ Valid and invalid data handling
-- **Navigation:** ✓ Multiple page endpoints tested
-- **Exception Handling:** ✓ Timeouts, missing elements, error pages
-- **Element Properties:** ✓ Attributes (id, href, placeholder), states (enabled/disabled)
-- **Wait Strategies:** ✓ Explicit waits, FakeDriver fallback
+- **UI Elements:**  Page titles, URLs, form fields, links
+- **Form Submission:**  Valid and invalid data handling
+- **Navigation:**  Multiple page endpoints tested
+- **Exception Handling:**  Timeouts, missing elements, error pages
+- **Element Properties:**  Attributes (id, href, placeholder), states (enabled/disabled)
+- **Wait Strategies:**  Explicit waits, FakeDriver fallback
 
 ---
 
