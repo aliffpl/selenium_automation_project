@@ -4,20 +4,13 @@
 
 This is a **complete, production-ready Selenium WebDriver automation framework** for testing web applications. It uses the [DemoQA](https://demoqa.com) test automation playground as the target site and demonstrates:
 
-- 
- Page Object Model (POM) design pattern
-- 
- Explicit waits and proper synchronization
-- 
- Comprehensive exception handling
-- 
- Offline/FakeDriver fallback support (runs without internet or drivers installed)
-- 
- Clean, modular architecture
-- 
- Pytest-based test execution with detailed reporting
-- 
- Meaningful logging and documentation
+- Page Object Model (POM) design pattern
+- Explicit waits and proper synchronization
+- Comprehensive exception handling
+- Offline/FakeDriver fallback support (runs without internet or drivers installed)
+- Clean, modular architecture
+- Pytest-based test execution with detailed reporting
+- Meaningful logging and documentation
 
 ---
 
@@ -222,6 +215,3 @@ DEFAULT_BROWSER = "chrome"  # or "firefox"
     pip install -r requirements.txt
     python -m pytest -q
 ```
-
----
-"# selenium_automation_project" 
