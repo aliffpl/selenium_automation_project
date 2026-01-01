@@ -108,7 +108,7 @@ selenium_automation_project/
 ├── pages/                           
 │   ├── homepage.py                    
 │   ├── form_page.py                   
-│   └── links_page.py                  \
+│   └── links_page.py                  
 │
 └── tests/                           
     ├── test_navigation.py
